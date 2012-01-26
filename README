@@ -12,12 +12,31 @@ To install this module, run the following commands:
 	make test
 	make install
 
+RUNNING
+
+Once ImageExtractor is installed, extract-images.pl will be put into
+your path, so it can easily be run.
+
+    extract-images.pl --help # for more information
+
+DEPENDENCIES
+
+The Makefile.PL knows about the dependencies, but just in case, here
+they are again (assuming you have a modern perl, such as 5.12):
+
+    * HTML::TreeBuilder::XPath
+    * LWP::UserAgent
+    * Moose
+    * Pod::Usage
+    * Try::Tiny
+    * URI::URL
+
 SUPPORT AND DOCUMENTATION
 
 After installing, you can find documentation for this module with the
 perldoc command.
 
-    perldoc ImageExtractor
+    perldoc extract-images.pl
 
 LICENSE AND COPYRIGHT
 
