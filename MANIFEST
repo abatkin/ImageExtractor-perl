@@ -1,0 +1,8 @@
+README
+t/00-load.t
+scripts/extract-images.pl
+Makefile.PL
+MANIFEST
+lib/ImageExtractor.pm
+lib/ImageExtractor/Source.pm
+lib/ImageExtractor/Image.pm
